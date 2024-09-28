@@ -3,43 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Tobias Libuoschitz</title>
+    <title>Mi Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <center><title> Tobias Liuboschitz - Personal portfolio </title></center>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre mí</a></li>
+                <li><a href="portfolio.html">Experiencia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav id="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="curriculum.html">CV</a></li>
-            <li><a href="canciones.html">Services</a></li>
-            <li><a href="optional.html">Personal Blog</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="certifications.html">Certifications and awards</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-   
-    <main>
-        <h2>Estudiante y secretario part time. Muy motivado por aprender y crear nuevas tecnologías.</h2>
-        <section id="about">
-            <h2>Sobre mí</h2>
-            <p>Secretario administrativo desde 2018. Persona enérgica y entusiasta, con habilidades en trabajo en equipo y desarrollo personal.</p>
-        </section>
-        
-        <a href="https://linkedin.com/in/tobias-liuboschitz/">
-            <img width="200" height="100" src="imagenes/foto-carnet.jpg" alt="Tobias Liuboschitz">
-        </a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio, labore vitae quidem fuga accusamus ex velit odio, mollitia aliquid facilis fugiat dolorem tempora rem alias maiores provident repudiandae doloribus!</p>
-    </main>
-    <footer>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <div class="about-container">
+            <!-- Contenedor de la izquierda con la foto y la descripción -->
+            <div class="left-side">
+                <img src="Imagenes/foto-carnet.jpg" alt="Mi foto personal" class="mi-foto">
+                <p>Soy un desarrollador web apasionado por la creación de sitios funcionales y visualmente atractivos.</p>
+            </div>
+            
+            <!-- Contenedor de la derecha con información adicional -->
+            <div class="right-side">
+                <h3>Información Adicional</h3>
+                <ul>
+                    <li><strong>Estudios:</strong> Actualmente cursando en la Universidad Argentina de la Empresa (UADE)</li>
+                    <li><strong>Origen:</strong> Argentina</li>
+                    <li><strong>Edad:</strong> 23 años</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo: <a href="mailto:tliuboschitz@uade.edu.ar">tliuboschitz@uade.edu.ar</a></p>
+        <p>O vía Whatsapp: <a href="wa.me/5491168355718">+54 9 11 6835-5718</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Tobias Liuboschitz</p>
     </footer>
-    
+
 </body>
 </html>
